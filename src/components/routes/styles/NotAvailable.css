@@ -5,23 +5,21 @@
     align-items: center;
     height: 100vh;
     padding-top: 0;
-}
 
-figure {
-    margin-top: 3rem;
-    max-width: 400px;
+
+    figure {
+        max-width: 300px;
+    }
 }
 
 .not-available {
     h2 {
         color: var(--dark-gray);
-        font-size: 20px;
+        font-size: 1.5rem;
         margin: 2rem 0;
     }
 }
 
-@media (max-width: 400px) {
-    .not-available h2 {
-        font-size: 14px;
-    }
+Button {
+    margin-top: 15px;
 }

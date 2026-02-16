@@ -10,13 +10,13 @@ const NotFound = () => {
     };
     const error = useRouteError();
     console.log(error);
-    
+
     if (error.status === 404) {
         return (
             <div className="not-found container">
                 <figure>
                     <img
-                        src= "/portfolio/images/not-found-404.gif"
+                        src="/portfolio/images/404.svg"
                         alt='404 page not found'
                     />
                 </figure>

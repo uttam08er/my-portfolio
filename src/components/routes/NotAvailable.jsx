@@ -4,7 +4,7 @@ import Button from '../ui/Button';
 import './styles/NotAvailable.css';
 
 const NotAvailable = () => {
-  const navigate = useNavigate();
+    const navigate = useNavigate();
     const handleGoBack = () => {
         navigate(-1);
     };
@@ -12,11 +12,11 @@ const NotAvailable = () => {
         <div className="not-available container">
             <figure>
                 <img
-                    src="/portfolio/images/not-available.gif"
-                    alt='Not available...'
+                    src="/portfolio/images/not-avl.svg"
+                    alt='Data not available...'
                 />
             </figure>
-            <h2>Not available </h2>
+            <h2>Data not available !!! </h2>
             <Button variant='secondary' onClick={handleGoBack}>Go back</Button>
         </div>
     );

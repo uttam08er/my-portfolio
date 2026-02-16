@@ -19,14 +19,15 @@ const About = () => {
 
   const handleDownloadCV = () => {
     try {
-      const url = "/files/cv.pdf";
+      const url = "/portfolio/files/uttam_res.pdf";
       const link = document.createElement('a');
       link.href = url;
       link.download = 'Uttam_CV.pdf'; // Change to .pdf for actual PDF
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      window.URL.revokeObjectURL(ur);
+
+      console.log(window.URL.revokeObjectURL(url));
       toast.success('CV downloaded successfully!');
     } catch (error) {
       toast.error('Oops! Something went wrong. Please try again.');

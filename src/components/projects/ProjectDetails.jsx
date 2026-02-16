@@ -1,7 +1,7 @@
 import { useLoaderData } from 'react-router-dom';
 import { FaCircle, FaCode } from "react-icons/fa6";
 import projectsData from '../../assets/data/projects-data.json';
-import ComingSoon from '../routes/ComingSoon';
+import NotAvailable from '../routes/NotAvailable';
 import BackNav from '../routes/BackNav';
 import './styles/ProjectDetails.css';
 
@@ -64,7 +64,7 @@ const ProjectDetails = () => {
                     </div>
                 </>
             ) : (
-                <ComingSoon />
+                <NotAvailable />
             )}
         </>
     );
