@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --test-color: linear-gradient(to right,#d36a6a,#fb4845);
   --gradient-color: linear-gradient(to right, #7cabfc 0%, #ff7dda 100%);
   --primary-color: #ff7dda;
   --secondary-color: #7cabfc;
